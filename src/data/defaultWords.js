@@ -16,7 +16,7 @@ export const DEFAULT_WORD_CATEGORIES = [
       'Pizza', 'Sushi', 'Burger', 'Ice Cream', 'Taco',
       'Spaghetti', 'Pancake', 'Salad', 'Steak', 'Donut',
       'Chocolate', 'Coffee', 'Sandwich', 'Soup', 'Popcorn',
-      'Curry', 'Croissant', 'Falafel', 'Paella', 'Dumpling'
+      'Curry', 'Croissant', 'Falafel'
     ]
   },
   {
@@ -26,7 +26,7 @@ export const DEFAULT_WORD_CATEGORIES = [
       'Lion', 'Elephant', 'Penguin', 'Giraffe', 'Monkey',
       'Shark', 'Eagle', 'Dolphin', 'Tiger', 'Kangaroo',
       'Panda', 'Bear', 'Wolf', 'Zebra', 'Crocodile',
-      'Octopus', 'Camel', 'Rhinoceros', 'Peacock', 'Koala'
+      'Octopus', 'Camel'
     ]
   },
   {
