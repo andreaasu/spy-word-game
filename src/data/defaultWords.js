@@ -44,8 +44,8 @@ export const DEFAULT_WORD_CATEGORIES = [
     name: 'ENTA SPY?',
     words: [
       'Pyramid', 'kneisa', 'Nile', 'Alexandria', 'sokhna',
-      'Camel', 'Desert', 'Papyrus', 'Cleopatra',
-      'Tutankhamun', 'Red Sea'
+      'Mcdonalds', 'Cleopatra', 'hell', 'heaven',
+      'Tutankhamun', 'Red Sea', 'lbana', 'doctor', 'nigga'
     ]
   }
 ];
