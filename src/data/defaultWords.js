@@ -43,9 +43,9 @@ export const DEFAULT_WORD_CATEGORIES = [
     id: 'egyptian',
     name: 'ENTA SPY?',
     words: [
-      'Pyramid', 'Sphinx', 'Nile', 'Pharaoh', 'Mummy',
-      'Camel', 'Desert', 'Hieroglyphics', 'Papyrus', 'Cleopatra',
-      'Tutankhamun', 'Cairo', 'Luxor', 'Red Sea', 'Felucca'
+      'Pyramid', 'kneisa', 'Nile', 'Alexandria', 'sokhna',
+      'Camel', 'Desert', 'Papyrus', 'Cleopatra',
+      'Tutankhamun', 'Red Sea'
     ]
   }
 ];
