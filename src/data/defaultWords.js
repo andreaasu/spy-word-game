@@ -45,7 +45,7 @@ export const DEFAULT_WORD_CATEGORIES = [
     words: [
       'Pyramid', 'kneisa', 'Nile', 'Alexandria', 'sokhna',
       'Mcdonalds', 'Cleopatra', 'hell', 'heaven',
-      'Tutankhamun', 'Red Sea', 'lbana', 'doctor', 'nigga'
+      'korba', 'Red Sea', 'lbana', 'doctor', 'nigga'
     ]
   }
 ];
