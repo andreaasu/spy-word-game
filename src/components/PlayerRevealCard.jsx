@@ -34,7 +34,18 @@ const PlayerRevealCard = ({ isImposter, word, isHolding, onStartHold, onEndHold 
             <div style={{ textAlign: 'center', opacity: isHolding ? 0 : 1, transition: 'opacity 0.2s' }}>
                 <h2>Hold to Reveal</h2>
                 <p style={{ color: 'var(--text-secondary)' }}>(Keep holding to see role)</p>
-                <div style={{ fontSize: '4rem', marginTop: '20px' }}>fingerprint</div>
+                <div style={{
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                    margin: '40px auto',
+                    padding: '20px',
+                    border: '3px dashed var(--text-secondary)',
+                    borderRadius: '16px',
+                    width: '80%',
+                    maxWidth: '300px'
+                }}>
+                    HOLD DOWN HERE
+                </div>
             </div>
 
             {isHolding && (
