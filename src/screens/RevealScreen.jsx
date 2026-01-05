@@ -56,7 +56,7 @@ const RevealScreen = ({ state, dispatch }) => {
 
             <PlayerRevealCard
                 isImposter={currentPlayer.isImposter}
-                secretWord={currentPlayer.isImposter ? null : secretWord}
+                {...(!currentPlayer.isImposter ? { word: secretWord } : {})}
                 onConfirm={handleNext}
             />
 
