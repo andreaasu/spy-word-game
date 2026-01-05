@@ -33,7 +33,7 @@ const PlayerRevealCard = ({ isImposter, secretWord, onConfirm }) => {
                             <span style={{ color: 'var(--primary-color)', fontSize: '2.5rem', fontWeight: 'bold', display: 'block' }}>A SPY</span>
                             <p style={{ marginTop: '10px' }}>The secret word is:</p>
                             <div style={{ fontSize: '3rem', fontWeight: 'bold', border: '2px dashed var(--text-secondary)', padding: '10px', marginTop: '10px', borderRadius: '8px' }}>
-                                {secretWord}
+                                {secretWord || 'ERROR: NO WORD'}
                             </div>
                         </div>
                     )}
