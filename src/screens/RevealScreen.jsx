@@ -10,9 +10,11 @@ const RevealScreen = ({ state, dispatch }) => {
     const isLastPlayer = currentPlayerIndex === players.length - 1;
 
     const [step, setStep] = useState('INTERSTITIAL'); // 'INTERSTITIAL' | 'REVEAL'
+    const [isHolding, setIsHolding] = useState(false);
 
     useEffect(() => {
         setStep('INTERSTITIAL');
+        setIsHolding(false);
     }, [currentPlayerIndex]);
 
     const handleNext = () => {
@@ -56,18 +58,20 @@ const RevealScreen = ({ state, dispatch }) => {
 
             <PlayerRevealCard
                 isImposter={currentPlayer.isImposter}
-                {...(!currentPlayer.isImposter ? { word: secretWord } : {})}
-                onConfirm={handleNext}
+                isHolding={isHolding}
+                onStartHold={() => setIsHolding(true)}
+                onEndHold={() => setIsHolding(false)}
+                {...(isHolding && !currentPlayer.isImposter ? { word: secretWord } : {})}
             />
 
-            <p style={{
-                color: 'var(--text-secondary)',
-                marginTop: '24px',
-                textAlign: 'center',
-                opacity: 0.7
-            }}>
-                {isLastPlayer ? 'Tap card to Start Discussion' : 'Tap card to confirm & pass'}
-            </p>
+            <div style={{ marginTop: '40px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
+                <Button onClick={handleNext}>
+                    {isLastPlayer ? 'Start Discussion' : 'Done & Pass Device'}
+                </Button>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', opacity: 0.7 }}>
+                    seen your role?
+                </p>
+            </div>
         </ScreenWrapper>
     );
 };
