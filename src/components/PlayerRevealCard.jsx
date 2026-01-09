@@ -71,7 +71,7 @@ const PlayerRevealCard = ({ isImposter, word, isHolding, onStartHold, onEndHold 
                         </div>
                     ) : (
                         <div style={{ textAlign: 'center' }}>
-                            <span style={{ color: 'var(--primary-color)', fontSize: '1.5rem', fontWeight: 'bold', display: 'block', marginBottom: '10px' }}>YOU ARE A SPY</span>
+                            <span style={{ color: 'var(--primary-color)', fontSize: '1.5rem', fontWeight: 'bold', display: 'block', marginBottom: '10px' }}>THE WORD IS</span>
                             <p style={{ marginBottom: '5px' }}>Secret Word:</p>
                             <div style={{ fontSize: '3rem', fontWeight: 'bold', color: 'white' }}>
                                 {word || 'ERROR'}
