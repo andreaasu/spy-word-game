@@ -45,7 +45,8 @@ export const DEFAULT_WORD_CATEGORIES = [
     words: [
       'Pyramid', 'kneisa', 'Nile', 'Alexandria', 'sokhna',
       'Mcdonalds', 'Cleopatra', 'hell', 'heaven',
-      'korba', 'Red Sea', 'lbana', 'doctor', 'nigga'
+      'korba', 'Red Sea', 'lbana', 'doctor', 'nigga', 'andrea', 'marco', 'david', 'maggie', 'linda',
+      'jessie', 'eyad', 'padel', 'football', 'el Ebla', 'mosque', 'district 5', 'cariboue', 'koffee culture'
     ]
   }
 ];
